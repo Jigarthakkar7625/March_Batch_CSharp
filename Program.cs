@@ -10,6 +10,51 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
+
+
+            // Function 
+            // Recursion :
+            // //{{}}
+
+            int aaaa = 10;
+
+            Console.WriteLine($"This is my value : {aaaa * aaaa}"); //EXP
+
+            Console.WriteLine("This is my value : " + aaaa * aaaa +"gfgdd"+ "gfdg" +); // fresher
+
+            var resultFact = MyCustomFun(5); //120
+
+            Console.ReadKey();
+
+            // Call by value and Call by referece :
+
+
+
+
+            int abcccc = 15;
+
+            GetData(ref abcccc); // Function Pass karau ene Pointer kehvay
+
+            var getData = GetData2(10, 10);
+
+
+            int? result = null;
+
+            var result123 = result ?? 2; // Only nullable
+
+            var result1234 = result == 123 ? 2 : result;
+
+            if (result == null)
+            {
+                result1234 = 2;
+            }
+            else
+            {
+                result1234 = result;
+            }
+
+
+
             //Post increment and Pre increment
             // ++ (1),--(1), 
             // 
@@ -34,7 +79,7 @@ namespace ConsoleApp4
                 {
                     break;
                 }
-               
+
             }
 
 
@@ -75,7 +120,7 @@ namespace ConsoleApp4
 
             } while (abc <= 5); // Last
 
-            
+
             // While
             // Do while
             // Foreach
@@ -195,5 +240,57 @@ namespace ConsoleApp4
 
             //Console.WriteLine(a);
         }
+
+        // 5!
+        // 0 1 1 2 3 6
+
+        //void
+        //
+        public static void GetData(ref int a)
+        {
+
+            a = 5 * 10;
+
+        }
+
+        public static string GetData1() //MO
+        {
+
+            return "jigar";
+
+
+        }
+
+        public static int GetData2(int b, int a) //Default value
+        {
+            return a * b;
+
+        }
+        //5! : 
+        public static int MyCustomFun(int n)
+        {
+            //1 2 3 4 5 6
+
+
+
+            if (n == 0)
+            {
+                return n;
+                //Console.WriteLine(n);
+
+            }
+            else if (n == 1)
+            {
+                return 1;
+                //Console.WriteLine(n);
+
+            }
+            else
+            {
+                return (n * MyCustomFun(n - 1));
+            }
+
+        }
+
     }
 }
