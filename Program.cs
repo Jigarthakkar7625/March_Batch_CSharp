@@ -6,52 +6,146 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    internal class Program
+    public class Program
     {
+        readonly string acccc; // in  contructor change, Variable declare 
+        const double PI = 3.14; // Never change, Variable declare>> init
+
+
+        public Program(string a)
+        {
+            acccc = a;
+        }
+
         static void Main(string[] args)
         {
+
+            //acccc = "fdsfdsfsdfsfsfsfsfs"
+
+
+            // Read only and const
+
+
+            //string
+            // Immutable
+
+
+            //            String
+            //            string
+
+            //String system.string
+
+
+            string
+
+            Char a = 'A';
+
+
+            string myString = "jigar#sdffg#fggfgf#fdgd";
+            string myString123 = "JIGAR123";
+            var newString = myString123.PadLeft(10, '*');
+            var newStringdssddsds = myString123.PadRight(10, '*');
+
+            //padLeft
+            // PadRiht
+
+
+            var indexfdsfsd = myString.Remove(2);
+
+            var index = myString.ToUpper();
+            var index12 = myString.ToLower();
+
+            var indexdfsfsfsd = myString.IndexOf("g", StringComparison.OrdinalIgnoreCase); //2
+            var LastIndexOf = myString.LastIndexOf("g", StringComparison.OrdinalIgnoreCase); //21
+
+            bool abbccc = myString.EndsWith("FDGD", StringComparison.OrdinalIgnoreCase);
+
+            var abcdfsdfsf = myString.Trim();
+            //myString.TrimEnd();
+            //myString.TrimStart();
+            var abccccsdsd = myString.Replace(" ", "");
+            //var abc = "1,2,5,6,8"
+
+            //var abcccc = myString.Substring(1, 10);
+
+            var abcccc = myString.Replace("jigar", "Nidhi");
+
+            string myString1 = " Hitaxi ";
+
+            // Split
+            var newSplitString = myString.Split('#');
+
+            foreach (var item in newSplitString)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            ////Length
+            //var strLength = myString.Length;
+
+            //myString.Concat(myString1);
+            //myString = myString + myString1;
+            //myString += myString1;
+
+            //myString.Equals(myString1);
+            //var bbb = myString == myString1;
+
+            //string myString122 = " jigar "; // jigar "hitaxi"
+
+            //myString122 = "jigar \"Nidhi\"";
+
+            //myString122 = "jigar \'Nidhi\' \n Thakkar fjsdfklj \n sdjfdsfj";
+
+
+
+
+            Console.ReadLine();
+
+            //a = "Hardik";
+
 
 
             // Function 
             // Recursion :
             // //{{}}
 
-            int aaaa = 10;
+            //int aaaa = 10;
 
-            Console.WriteLine($"This is my value : {aaaa * aaaa}"); //EXP
+            //Console.WriteLine($"This is my value : {aaaa * aaaa}"); //EXP
 
-            Console.WriteLine("This is my value : " + aaaa * aaaa +"gfgdd"+ "gfdg" +); // fresher
+            //Console.WriteLine("This is my value : " + aaaa * aaaa +"gfgdd"+ "gfdg" +); // fresher
 
-            var resultFact = MyCustomFun(5); //120
+            //var resultFact = MyCustomFun(5); //120
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
-            // Call by value and Call by referece :
-
-
+            //// Call by value and Call by referece :
 
 
-            int abcccc = 15;
-
-            GetData(ref abcccc); // Function Pass karau ene Pointer kehvay
-
-            var getData = GetData2(10, 10);
 
 
-            int? result = null;
+            //int abcccc = 15;
 
-            var result123 = result ?? 2; // Only nullable
+            //GetData(ref abcccc); // Function Pass karau ene Pointer kehvay
 
-            var result1234 = result == 123 ? 2 : result;
+            //var getData = GetData2(10, 10);
 
-            if (result == null)
-            {
-                result1234 = 2;
-            }
-            else
-            {
-                result1234 = result;
-            }
+
+            //int? result = null;
+
+            //var result123 = result ?? 2; // Only nullable
+
+            //var result1234 = result == 123 ? 2 : result;
+
+            //if (result == null)
+            //{
+            //    result1234 = 2;
+            //}
+            //else
+            //{
+            //    result1234 = result;
+            //}
 
 
 
