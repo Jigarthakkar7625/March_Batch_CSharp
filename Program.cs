@@ -20,6 +20,61 @@ namespace ConsoleApp4
         static void Main(string[] args)
         {
 
+            int? abccccc = null;
+            string myClassNonStatic = null;
+
+            var abcccvvc = Convert.ToString(myClassNonStatic);
+            var abcccvvcfsdfsdfs = myClassNonStatic.ToString();
+
+
+
+            //MyClassNonStatic myClassNonStatic = new MyClassNonStatic();
+
+            MyClassNonStatic myClassNonStatic12 = new MyClassNonStatic();
+
+            MyClassNonStatic myClassNonStatic1233 = new MyClassNonStatic();
+
+
+
+            //MyClassNonStatic myClassNonStatic1 = new MyClassNonStatic("Hello "); //
+            //var aaa = myClassNonStatic1.Name;
+
+            //MyClassNonStatic myClassNonStatic2 = new MyClassNonStatic("fsdfsfsfds "); //
+            //var aaasa = myClassNonStatic2.Name;
+
+            //MyClassNonStatic myClassNonStatic3 = new MyClassNonStatic("dsfdsfdsfdsfssf "); //
+            //var aaasasdf = myClassNonStatic3.Name;
+
+            //MyClassNonStatic myClassNonStatic44 = new MyClassNonStatic(myClassNonStatic3);
+
+
+
+
+
+            //MyClass myClass = new MyClass(); // Object
+            //myClass.Description = "Hello";
+
+            //String.Join(" ", args);
+
+            //MyClass.Description = "fdf";
+            //MyClass.GetData();
+
+
+            //MyClass myClass1 = new MyClass(); // Object
+
+            //MyClass myClass3 = new MyClass(); // Object
+
+
+            // Data types : 
+            // Primitive data types
+            //
+            // Non-Primitive DT
+
+            //Class and Object
+            //Constructor
+
+
+
             //acccc = "fdsfdsfsdfsfsfsfsfs"
 
 
@@ -36,9 +91,9 @@ namespace ConsoleApp4
             //String system.string
 
 
-            string
 
-            Char a = 'A';
+
+            //Char a = 'A';
 
 
             string myString = "jigar#sdffg#fggfgf#fdgd";
