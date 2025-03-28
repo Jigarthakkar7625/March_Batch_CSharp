@@ -20,6 +20,59 @@ namespace ConsoleApp4
         static void Main(string[] args)
         {
 
+            //OOPS > 
+            // Encapsulation >> Access modifiers >> 
+            // public, Private, protected, Private protected, protected internal
+            // Inharitance >> 
+            // Single
+            // Multi Level
+            // Hirarchical inharitance
+            // Hybrid 
+            // Multiple inharitance
+
+
+            // Polymorphism
+            // Abstraction VS (Interface)
+
+
+            IA abc = new CChildClass();
+            IB abc1 = new CChildClass();
+
+            CChildClass cChildClass = new IA();
+
+            CChildClass cChildClass11 = new IB();
+
+
+            //A aObj = new B();
+
+            //aObj.BParentProperty = 12;
+
+            //B aObjsd = new B(); //Child
+            //aObjsd.BParentProperty = 12;
+            //aObjsd.AParentProperty = 12;
+
+
+            //B aObaa = new A();
+
+
+            AccessModifiers accessModifiers = new AccessModifiers();
+
+            //accessModifiers.MyPrivateProp = 10;
+
+            //accessModifiers.MyProperty = 12;
+            // Protected internal : 
+            // exe, dll >> Assembly
+
+            // Private internal : 
+
+
+
+
+
+
+
+
+
             int? abccccc = null;
             string myClassNonStatic = null;
 
